@@ -1,0 +1,46 @@
+a="1234"
+print(a.isalpha())
+
+a="1234"
+print(a.isdigit())
+
+a="abcD"
+print(a.islower())
+
+a2="ABCd"
+print(a2.isupper())
+
+a3="The Animal"
+print(a3.istitle())
+
+a="Hello world"
+print(a.find('world'))
+
+a="Hello world"
+print(a.find('res'))
+ 
+a="Hello world"
+print(a.index("world"))
+
+a="Hello world"
+print(a.find('world'))
+
+a="The animal the"
+print(a.replace ("the","is"))
+
+a="Hello world"
+print(a.count("l"))
+
+a="  Hello  "
+print(a.strip())
+
+a="  Hello   world   "
+print(a.lstrip())
+
+a="abcd"
+print(a.zfill(8))
+
+
+
+
+
