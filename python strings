@@ -1,0 +1,14 @@
+a="1234"
+print(a.isalpha())
+
+a="1234"
+print(a.isdigit())
+
+a="abcD"
+print(a.islower())
+
+a2="ABCd"
+print(a2.isupper())
+
+a3="The Animal"
+print(a3.istitle())
